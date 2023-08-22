@@ -1,0 +1,12 @@
+2023-08-22 16:53:00,965 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.148:5000
+2023-08-22 16:53:00,966 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-22 16:53:12,342 - INFO - 127.0.0.1 - - [22/Aug/2023 16:53:12] "GET / HTTP/1.1" 200 -
+2023-08-22 16:53:13,194 - INFO - 127.0.0.1 - - [22/Aug/2023 16:53:13] "GET /static/styles.css HTTP/1.1" 200 -
+2023-08-22 16:53:26,627 - INFO - Superadmin login: Adarsh
+2023-08-22 16:53:27,136 - INFO - 127.0.0.1 - - [22/Aug/2023 16:53:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-08-22 16:53:27,169 - INFO - Superadmin login 
+2023-08-22 16:53:27,188 - INFO - 127.0.0.1 - - [22/Aug/2023 16:53:27] "GET /superadmin_dashboard HTTP/1.1" 200 -
+2023-08-22 16:53:27,234 - INFO - 127.0.0.1 - - [22/Aug/2023 16:53:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
