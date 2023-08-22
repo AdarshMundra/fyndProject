@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 app = Flask(__name__, static_folder='static')
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:root@localhost/fynd'
 # app.config["DEBUG"] = True
-app.config['SQLALCHEMY_DATABASE_URI']= "mysql://admin:IvkDQNtk80HUW5l40v6A@databasetest.cl4pduwjhwak.us-east-1.rds.amazonaws.com:3306/fynd"
+app.config['SQLALCHEMY_DATABASE_URI']= "mysql+pymysql://admin:IvkDQNtk80HUW5l40v6A@databasetest.cl4pduwjhwak.us-east-1.rds.amazonaws.com:3306/fynd"
 # app.config["SQLALCHEMY_POOL_RECYCLE"] = 299
 # app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 #
