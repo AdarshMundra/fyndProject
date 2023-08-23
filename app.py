@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, session
 from models import db, SuperAdmin, User, ToDoList
 import logging
+from flask_cors import CORS
 
 # Set up logging configuration
 logging.basicConfig(filename='app.log', level=logging.INFO,
@@ -15,7 +16,7 @@ app.config['SQLALCHEMY_DATABASE_URI']= "mysql+pymysql://admin:IvkDQNtk80HUW5l40v
 # app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 #
 app.secret_key = 'your_secret_key'  # Change this to a random and secure secret key
-
+CORS(app)
 
 
 db.init_app(app)
